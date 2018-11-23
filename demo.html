@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>scrollbar.js</title>
+	<style>
+		*{margin:0; padding:0}
+		#box,#box2{width:300px; position:fixed;overflow:hidden; background:#eee; left:100px; top:40px; height:300px; border:1px solid #666;}
+		#box2{left:500px; top:40px; overflow:auto;}
+	</style>
+	<script src="scroll-bar.js"></script>
+	<script>
+		window.onload = function(){
+
+			//var bodyScrollBar = new ScrollBar(document.body,{
+				// barY : true,
+				// barX : true,
+				// onscroll : function(scrollTop,scrollLeft){
+					// do something...
+				// }
+			//});
+			
+//			window.onresize = function(){
+//				bodyScrollBar.resize();
+//			};
+
+            new ScrollBar(document.getElementById("box"));
+
+		}
+	</script>
+</head>
+<body>
+	<div id="box">
+		<h1 style="width:1000px;">123456789012345678901234567890123456789012345678901234567890</h1>
+		<h1>2</h1>
+		<h1>3</h1>
+		<h1>4</h1>
+		<h1>5</h1>
+		<h1>6</h1>
+		<h1>7</h1>
+		<h1>8</h1>
+		<h1>9</h1>
+		<h1>10</h1>
+		<h1>11</h1>
+		<h1>12</h1>
+		<h1>13</h1>
+		<h1>14</h1>
+		<h1>15</h1>
+		<h1>16</h1>
+		<h1>17</h1>
+		<h1>18</h1>
+		<h1>19</h1>
+		<h1>20</h1>
+	</div>
+	<div id="box2">
+		<h1>1</h1>
+		<h1>2</h1>
+		<h1>3</h1>
+		<h1>4</h1>
+		<h1>5</h1>
+		<h1>6</h1>
+		<h1>7</h1>
+		<h1>8</h1>
+		<h1>9</h1>
+		<h1>10</h1>
+		<h1>11</h1>
+		<h1>12</h1>
+		<h1>13</h1>
+		<h1>14</h1>
+		<h1>15</h1>
+		<h1>16</h1>
+		<h1>17</h1>
+		<h1>18</h1>
+		<h1>19</h1>
+		<h1>20</h1>
+	</div>
+</body>
+</html>
