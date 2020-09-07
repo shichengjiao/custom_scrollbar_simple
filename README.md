@@ -1,5 +1,6 @@
 # scrollBar.js
 > parent node must be set width(or height)
+
 custom scrollBar.
 <h3>usage</h3>
 <pre>
