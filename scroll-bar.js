@@ -39,7 +39,7 @@ initScrollBarStyle(
 	".scrollbar-slide-x{height:100%;background:#666;}" + 
 
 	".scrollbar-bar,.scrollbar-bar-x{position:absolute;background:transparent;transition:background 0.3s,height 0.3s,width 0.3s;}" +
-	".scrollbar-bar:hover{background:#ccc;width:20px;}.scrollbar-bar-x:hover{background:#ccc;height:20px;");
+	".scrollbar-bar:hover{background:#ccc;}.scrollbar-bar-x:hover{background:#ccc;");
 
 function ScrollBar(el,opt){
 	this.opt = opt || {};
